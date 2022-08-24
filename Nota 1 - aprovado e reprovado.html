@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprovados e Reprovados</title>
+</head>
+<body>
+    <script>        
+        let notaA = Number (window.prompt('Digite a primeira nota do aluno '))
+        let notaB = Number (window.prompt('Digite a segunda nota do aluno '))
+        let notaC = Number (window.prompt('Digite a terceira nota do aluno '))
+        
+        let resultado = (notaA += notaB += notaC)/3
+        let classificacao = resultado <= 7 ? 'Aluno reprovado': 'Aluno aprovado' 
+        
+        console.log(classificacao, 'com média', resultado)        
+        </script>
+</body>
+</html>

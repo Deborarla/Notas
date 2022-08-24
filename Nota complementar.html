@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nota complementar</title>
+</head>
+<body>
+    <script>
+        let notaA = Number(window.prompt('Digite a primeira nota do aluno '))
+        let notaB = Number(window.prompt('Digite a segunda nota do aluno '))
+        const media = 21
+        let resultado = (notaA += notaB)
+        let diferenca = media - resultado
+
+        if (resultado > 11){
+             console.log('Você precisa de', diferenca, ' pontos para obter a média 7')
+        }
+        else {
+            console.log('Você está reprovado pois não atingiu a pontuação necessária')
+        }
+    </script>
+</body>
+</html>
